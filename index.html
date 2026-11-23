@@ -3,48 +3,50 @@
 <head>
   <title>Santikos Burgers</title>
   <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to Santikos Burgers</h1>
+    <img src="/img/santikos burgers.jpg" alt="Restaurant interior">
+    <h1>WELCOME TO SANTIKOS BURGERS</h1>
   </header>
 
   <main>
-    <section>
+    <section id="burgers">
       <h2>Select burger</h2>
       <p>This is where you execute burger selection</p>
-    <div style="display: inline-block;">
+    <div class="wrapper">
+      <div>
         <h3>The Dry Burger</h3>
         <img src="/img/dryburger.JPG" alt="The Fire Burger" title="The Fire Burger" style="width: 250px;">
         <ul>
           <li>70 kCal</li>
-          <li>Contains lactose</li>
-          <li>Contains gluten</li>
+          <li>Contains <span class="allergy">lactose</span></li>
+          <li>Contains <span class="allergy">gluten</span></li>
         </ul>
       </div>
-
-      <div style="display: inline-block;">
+      <div>
         <h3>Freaky Burger</h3>
         <img src="/img/freakyburger.jpeg" alt="Fried Turkey Burger" title="Fried Turkey Burger" style="width: 250px;">
         <ul>
           <li>600 kCal</li>
-          <li>Contains lactose</li>
+          <li>Contains <span class="allergy">lactose</span></li>
           <li>Contains freaky flavors</li>
         </ul>
       </div>
-
-      <div style="display: inline-block;">
+      <div>
         <h3>Tomato Burger</h3>
         <img src="/img/tomatoburger.jpg" alt="A Double w/ Cheese" title="A Double w/ Cheese" style="width: 250px;">
         <ul>
           <li>1800 kCal</li>
-          <li>Contains tomato</li>
-          <li>Contains more tomatoes</li>
+          <li>Contains <span class="allergy">tomatoes</span></li>
+          <li>Contains more <span class="allergy">tomatoes</span></li>
         </ul>
       </div>
+    </div>
     </section>
 
-    <section>
+    <section id="customer">
       <h2>Customer information</h2>
       <p>This is where you provide necessary information</p>
                 <h3>Delivery information:</h3>
